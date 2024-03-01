@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -39,8 +39,8 @@
             </div>
         </div>
     </header>
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Front-end</h2>
                 <p class="event__details__description">
@@ -50,6 +50,40 @@
             <img class="event__image" src="./images/frontend.png" alt="Front-end">
         </div>
     </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UI-UX</h2>
+                <p class="event__details__description">
+                    Desvende os segredos do design de interfaces e experiência do usuário no nosso podcast exclusivo sobre UI-UX! Explore as nuances do design centrado no usuário, tendências inovadoras de UX, e estratégias para criar interfaces visualmente impactantes. Com entrevistas de profissionais experientes e insights valiosos, nosso podcast oferece uma visão abrangente do emocionante universo de UI-UX. Sintonize para descobrir como elevar a qualidade e a eficácia do design em cada projeto. Aventure-se conosco nesta jornada fascinante! 
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Ux-Ui">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Embarque em uma jornada fascinante pelos bastidores dos dados no nosso podcast dedicado a Data Science! Descubra as últimas inovações em análise de dados, aprendizado de máquina e inteligência artificial. De entrevistas com cientistas de dados líderes a discussões sobre as aplicações práticas da ciência de dados, nosso podcast oferece uma visão envolvente do universo em constante evolução da Data Science. Prepare-se para mergulhar nas histórias, desafios e triunfos dos profissionais que moldam o futuro dos dados. Sintonize para desvendar os mistérios da ciência por trás dos números!
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Data-Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Explore o coração invisível da web no nosso podcast dedicado a Back-end! Mergulhe nas entranhas do desenvolvimento de servidores, bancos de dados e arquiteturas robustas que impulsionam aplicativos e websites. De discussões sobre otimização de desempenho a entrevistas com engenheiros de software especializados, nosso podcast oferece uma visão profunda do mundo do Back-end. Descubra as últimas tendências, desafios e soluções inovadoras que alimentam a infraestrutura por trás de cada clique. Sintonize para uma exploração emocionante do lado técnico da web!
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="back-end">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/src/scripts/main.js"></script>
 </body>
 </html>
